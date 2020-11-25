@@ -102,8 +102,8 @@ server <- function(input, output) {
     
     output$img<- renderPlot({
         
-        im <-load.image("./www/xray.jpeg")
-        plot(im, axes="FALSE")
+        img(src="./www/xray.jpeg")
+        
         
         
     })
